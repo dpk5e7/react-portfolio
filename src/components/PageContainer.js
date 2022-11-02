@@ -25,14 +25,10 @@ export default function PageContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className="container-fluid">
-      <div className="row border-bottom border-secondary">
-        <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-      </div>
-      <div className="row">{renderPage()}</div>
-      <div className="row border-top border-secondary fixed-bottom">
-        <Footer />
-      </div>
+    <div>
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      <main>{renderPage()}</main>
+      <Footer />
     </div>
   );
 }

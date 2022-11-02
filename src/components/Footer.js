@@ -1,7 +1,16 @@
 export default function Footer() {
   return (
-    <footer class="mx-2 p-2">
-      &copy; Kelly Software Solutions
+    <footer>
+      <h4>
+        &copy; 2022&nbsp;
+        <a
+          href="https://www.kellysoftware.org"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Kelly Software Solutions
+        </a>
+      </h4>
     </footer>
   );
 }
