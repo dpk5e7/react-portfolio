@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.98cca0ec.css",
-    "main.js": "/react-portfolio/static/js/main.050fa344.js",
+    "main.css": "/react-portfolio/static/css/main.2137ce78.css",
+    "main.js": "/react-portfolio/static/js/main.576ee955.js",
     "static/media/readme-generator.jpg": "/react-portfolio/static/media/readme-generator.ec82b3e7d50b480251b2.jpg",
     "static/media/FaurotField.jpg": "/react-portfolio/static/media/FaurotField.7d4ffbf967b503142633.jpg",
     "static/media/powder-bound.jpg": "/react-portfolio/static/media/powder-bound.1b9bff04cd31068d5980.jpg",
@@ -22,11 +22,13 @@
     "static/media/Dan.jpg": "/react-portfolio/static/media/Dan.fa628546618c39706ea7.jpg",
     "index.html": "/react-portfolio/index.html",
     "static/media/github.svg": "/react-portfolio/static/media/github.22e65707326e3e1e37afd21c5334995a.svg",
-    "main.98cca0ec.css.map": "/react-portfolio/static/css/main.98cca0ec.css.map",
-    "main.050fa344.js.map": "/react-portfolio/static/js/main.050fa344.js.map"
+    "static/media/linkedin.svg": "/react-portfolio/static/media/linkedin.2eda7bddaacee15c44494bb63ca94165.svg",
+    "static/media/stack-overflow.svg": "/react-portfolio/static/media/stack-overflow.2b16c13845003b1854aa013e242d8570.svg",
+    "main.2137ce78.css.map": "/react-portfolio/static/css/main.2137ce78.css.map",
+    "main.576ee955.js.map": "/react-portfolio/static/js/main.576ee955.js.map"
   },
   "entrypoints": [
-    "static/css/main.98cca0ec.css",
-    "static/js/main.050fa344.js"
+    "static/css/main.2137ce78.css",
+    "static/js/main.576ee955.js"
   ]
 }
