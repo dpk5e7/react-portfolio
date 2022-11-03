@@ -1,0 +1,71 @@
+$header-bg-color: #002451;
+$header-text-color: white;
+$text-color: black;
+$bg-color: #c0c0c0;
+$section-bg-color: #d6d6d6;
+$border-radius: 8px;
+$inner-border-radius: 6px;
+$shadow: #aaaaaa;
+
+@import "reset";
+@import "header";
+@import "aside";
+@import "footer";
+@import "sections";
+@import "articles";
+
+body {
+  height: 100%;
+  font-family: Arial;
+  margin: 0;
+  background: $bg-color;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+h2 {
+  font-size: 150%;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 125%;
+}
+
+h4 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+main {
+  display: flex;
+  flex: 1 1 0;
+  /* max-width: 1920px; */
+  /* flex-wrap: wrap; */
+}
+
+#About {
+  border-radius: $border-radius;
+}
+
+#Contact {
+  border-radius: $border-radius;
+}
+
+#Portfolio {
+  border-radius: $border-radius;
+} 
+
+/* Large smartphones */
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+}
+

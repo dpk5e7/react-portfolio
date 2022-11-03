@@ -1,0 +1,38 @@
+header {
+  padding: 5px;
+  text-align: left;
+  color: $header-text-color;
+  background-color: $header-bg-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  nav {
+    ul {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    a {
+      padding: 14px 20px;
+      text-decoration: none;
+      text-align: center;
+      white-space: nowrap;
+      color: $section-bg-color;
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      transition: all 0.3s ease;
+    }
+  }
+}
+
+/* Large smartphones */
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+}
+

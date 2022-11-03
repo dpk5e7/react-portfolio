@@ -1,0 +1,27 @@
+.sections {
+  flex: 4;
+  padding: 12px 9px 12px 6px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  section {
+    padding: 20px;
+    color: $text-color;
+    background-color: $section-bg-color;
+    max-width: 1920px;
+    box-shadow: 6px 6px 3px $shadow;
+
+    p {
+      text-align: left;
+      margin: 8px 0px 0px 0px;
+    }
+  }
+}
+
+/* Large smartphones */
+@media screen and (max-width: 768px) {
+  .sections {
+    padding: 6px 6px 6px 6px;
+  }
+}
