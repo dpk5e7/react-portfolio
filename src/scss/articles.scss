@@ -16,6 +16,7 @@
     min-width: 350px;
     background-color: $header-text-color;
     font-size: 90%;
+    transition: all 0.3s ease;
 
     header {
       border-radius: $inner-border-radius $inner-border-radius 0px 0px;
@@ -27,6 +28,7 @@
       a {
         color: $header-text-color;
         text-decoration: none;
+        transition: all 0.3s ease;
       }
 
       a:hover {
@@ -38,13 +40,13 @@
         /* safari 6.0 - 9.0 */
         filter: invert(80%);
         height: 24px;
+        transition: all 0.3s ease;
       }
 
       img:hover {
         -webkit-filter: invert(100%);
         /* safari 6.0 - 9.0 */
         filter: invert(100%);
-        height: 24px;
       }
     }
   }
