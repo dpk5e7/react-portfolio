@@ -17,6 +17,7 @@ import imgWorkDayScheduler from "../../images/work-day-scheduler.jpg";
 import imgPasswordGenerator from "../../images/password-generator.jpg";
 import imgPortfolio from "../../images/portfolio.jpg";
 import imgAccessibilityRefactor from "../../images/accessibility-refactor.jpg";
+import imgDU from "../../images/DU.jpg";
 
 const projects = [
   {
@@ -54,6 +55,15 @@ const projects = [
     technologies:
       "Powderlin.es, Open Weather, Google Static Maps, MapQuest Directions, MapQuest GeoCoding & Reverse Geocoding, MapQuest Static Maps, MapQuest Search Ahead, Geolocation",
     GitHubRepo: "https://github.com/dpk5e7/powder-bound",
+  },
+  {
+    title: "React Portfolio",
+    url: "https://dpk5e7.github.io/react-portfolio/",
+    image: imgDU,
+    description:
+      "Under Construction",
+    technologies: "React & SASS",
+    GitHubRepo: "https://github.com/dpk5e7/react-portfolio/",
   },
   {
     title: "Just Another Text Editor",
