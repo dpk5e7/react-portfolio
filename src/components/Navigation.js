@@ -5,22 +5,38 @@ export default function Navigation({ currentPage, handlePageChange }) {
     <nav>
       <ul>
         <li>
-          <a href="#about" onClick={() => handlePageChange("Home")}>
+          <a
+            href="#about"
+            onClick={() => handlePageChange("Home")}
+            className={currentPage === "Home" ? "active" : ""}
+          >
             About Me
           </a>
         </li>
         <li>
-          <a href="#portfolio" onClick={() => handlePageChange("Portfolio")}>
+          <a
+            href="#portfolio"
+            onClick={() => handlePageChange("Portfolio")}
+            className={currentPage === "Portfolio" ? "active" : ""}
+          >
             Portfolio
           </a>
         </li>
         <li>
-          <a href="#resume" onClick={() => handlePageChange("Resume")}>
+          <a
+            href="#resume"
+            onClick={() => handlePageChange("Resume")}
+            className={currentPage === "Resume" ? "active" : ""}
+          >
             Resume
           </a>
         </li>
         <li>
-          <a href="#contact" onClick={() => handlePageChange("Contact")}>
+          <a
+            href="#contact"
+            onClick={() => handlePageChange("Contact")}
+            className={currentPage === "Contact" ? "active" : ""}
+          >
             Contact
           </a>
         </li>

@@ -7,7 +7,7 @@ export default function Home() {
       <aside>
         <img src={headshot} alt="Dan Kelly" />
       </aside>
-      <div class="sections">
+      <div className="sections">
         <section id="About">
           <h2>About Me</h2>
           <p>

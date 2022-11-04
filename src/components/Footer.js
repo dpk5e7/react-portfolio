@@ -15,7 +15,7 @@ export default function Footer() {
           Kelly Software Solutions
         </a>
       </h4>
-      <div class="socialMedia">
+      <div className="socialMedia">
         <a href="https://github.com/dpk5e7/" target="_blank" rel="noreferrer">
           <img src={svgGitHub} alt="GitHub" />
         </a>

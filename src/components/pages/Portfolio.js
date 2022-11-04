@@ -196,10 +196,10 @@ const projects = [
 
 export default function Portfolio() {
   return (
-    <div class="sections">
+    <div className="sections">
       <section id="Portfolio">
         <h2>Portfolio</h2>
-        <div class="articles">
+        <div className="articles">
           {projects.map((project) => (
             <Project
               title={project.title}

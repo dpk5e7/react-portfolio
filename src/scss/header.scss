@@ -13,6 +13,10 @@ header {
       justify-content: space-between;
     }
 
+    li {
+      font-size: large;
+    }
+
     a {
       padding: 14px 20px;
       text-decoration: none;
@@ -24,6 +28,19 @@ header {
       &:hover {
         text-decoration: underline;
         color: $header-text-color;
+      }
+
+      
+    }
+
+    .active {
+      color: $tertiary;
+      font-size: larger;
+      transition: all 0.5s ease;
+
+      &:hover {
+        color: $tertiary;
+        text-decoration: underline;
       }
     }
   }

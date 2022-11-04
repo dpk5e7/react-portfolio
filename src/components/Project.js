@@ -41,7 +41,7 @@ export default function Project(props) {
   );
 
   return (
-    <article>
+    <article key={title}>
       <header>
         <h3>{link}</h3>
         {GitHubRepoLink}

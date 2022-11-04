@@ -1,11 +1,10 @@
 export default function Resume() {
   
   return (
-    <div class="sections">
+    <div className="sections">
       <section id="Contact">
         <h2>Resume</h2>
         <p>Download my <a href="/downloads/Kelly_Resume_2022.pdf" alt="Resume" download>resume</a>.</p>
-        <p>
           <h3>Front-End Proficiencies:</h3>
           <ul>
             <li>HTML, CSS, JavaScript</li>
@@ -14,8 +13,6 @@ export default function Resume() {
             <li>Bootstrap, SASS</li>
             <li>RESTful APIs</li>
           </ul>
-        </p>
-        <p>
           <h3>Back-End Proficiencies:</h3>
           <ul>
             <li>C#</li>
@@ -25,7 +22,6 @@ export default function Resume() {
             <li>MS SQL, MySQL, MongoDB</li>
             <li>Sequelize, Mongoose</li>
           </ul>
-        </p>
       </section>
     </div>
   );
