@@ -15,24 +15,24 @@
     p {
       text-align: left;
       margin: 8px 0px 0px 0px;
+    }
 
-      ul {
-        list-style-type: disc;
-        list-style-position: inside;
+    ul {
+      list-style-type: disc;
+      list-style-position: inside;
 
-        li {
-          padding-left: 16px;
-        }
+      li {
+        padding-left: 16px;
       }
+    }
 
-      a {
-        color: $tertiary;
-        text-decoration: none;
-        transition: all 0.3s ease;
+    a {
+      color: $tertiary;
+      text-decoration: none;
+      transition: all 0.3s ease;
 
-        &:hover {
-          text-decoration: underline;
-        }
+      &:hover {
+        text-decoration: underline;
       }
     }
   }
