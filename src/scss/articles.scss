@@ -10,13 +10,17 @@
     border-radius: $border-radius;
     padding: 0px;
     flex: 0 0 33.333%;
-    box-shadow: 6px 6px 3px #bbbbbb;
+    box-shadow: 6px 6px 3px darken($color: $section-bg-color, $amount: 8);
     margin: 12px;
     max-width: 350px;
     min-width: 350px;
     background-color: $header-text-color;
     font-size: 90%;
     transition: all 0.3s ease;
+
+    &:hover {
+      box-shadow: 6px 6px 3px darken($color: $section-bg-color, $amount: 30);
+    }
 
     header {
       border-radius: $inner-border-radius $inner-border-radius 0px 0px;
@@ -29,10 +33,10 @@
         color: $header-text-color;
         text-decoration: none;
         transition: all 0.3s ease;
-      }
 
-      a:hover {
-        text-decoration: underline;
+        &:hover {
+          text-decoration: underline;
+        }
       }
 
       img {
@@ -41,18 +45,14 @@
         filter: invert(80%);
         height: 24px;
         transition: all 0.3s ease;
-      }
 
-      img:hover {
-        -webkit-filter: invert(100%);
-        /* safari 6.0 - 9.0 */
-        filter: invert(100%);
+        &:hover {
+          -webkit-filter: invert(100%);
+          /* safari 6.0 - 9.0 */
+          filter: invert(100%);
+        }
       }
     }
-  }
-
-  article:hover {
-    box-shadow: 6px 6px 3px #999999;
   }
 
   p {

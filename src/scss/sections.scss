@@ -10,7 +10,7 @@
     color: $text-color;
     background-color: $section-bg-color;
     max-width: 1920px;
-    box-shadow: 6px 6px 3px $shadow;
+    box-shadow: 6px 6px 3px darken($color: $section-bg-color, $amount: 20);
 
     p {
       text-align: left;
@@ -29,10 +29,10 @@
         color: $tertiary;
         text-decoration: none;
         transition: all 0.3s ease;
-      }
 
-      a:hover {
-        text-decoration: underline;
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
   }

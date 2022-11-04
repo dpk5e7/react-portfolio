@@ -20,11 +20,11 @@ header {
       white-space: nowrap;
       color: $section-bg-color;
       transition: all 0.3s ease;
-    }
 
-    a:hover {
-      text-decoration: underline;
-      color: $header-text-color;
+      &:hover {
+        text-decoration: underline;
+        color: $header-text-color;
+      }
     }
   }
 }

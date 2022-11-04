@@ -6,7 +6,7 @@ aside {
 
   img {
     border-radius: $border-radius;
-    box-shadow: 6px 6px 3px $shadow;
+    box-shadow: 6px 6px 3px darken($color: $section-bg-color, $amount: 20);
   }
 }
 
