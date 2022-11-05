@@ -1,5 +1,7 @@
 import React from "react";
 
+// Creates the navigation menu and receives props from the Header component.
+// The active page receives the "active" css class.
 export default function Navigation({ currentPage, handlePageChange }) {
   return (
     <nav>

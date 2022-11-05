@@ -1,3 +1,5 @@
+// Component to show two lists of proficiencies and to allow the user to download my resume.
+// The resume is referenced as a static asset under the public folder.
 export default function Resume() {
   
   return (

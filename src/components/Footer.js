@@ -1,7 +1,9 @@
+// Imports svg files for social media images
 import svgGitHub from "../images/github.svg";
 import svgLinkedIn from "../images/linkedin.svg";
 import svgStackOverflow from "../images/stack-overflow.svg";
 
+// Creates a footer element with a link to KellySoftware.org and social media profiles.
 export default function Footer() {
   return (
     <footer>
