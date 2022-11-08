@@ -49,7 +49,7 @@ export const projects = [
   },
   {
     title: "Powder Bound",
-    url: "https://www.kellysoftware.org",
+    url: "https://dpk5e7.github.io/powder-bound/",
     image: imgPowderBound,
     description:
       "Project #1 for the University of Denver Coding Bootcamp 2022. The purpose of this project was to build an application to assist snow sport enthusiasts in Colorado in planning their search for powder.",
