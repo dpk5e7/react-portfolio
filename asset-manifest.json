@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.331161aa.css",
-    "main.js": "/react-portfolio/static/js/main.86bb7039.js",
+    "main.js": "/react-portfolio/static/js/main.b2bf3924.js",
     "static/media/readme-generator.jpg": "/react-portfolio/static/media/readme-generator.ec82b3e7d50b480251b2.jpg",
     "service-worker.js": "/react-portfolio/service-worker.js",
     "static/media/FaurotField.jpg": "/react-portfolio/static/media/FaurotField.7d4ffbf967b503142633.jpg",
@@ -26,10 +26,10 @@
     "static/media/linkedin.svg": "/react-portfolio/static/media/linkedin.2f72048cac99eb15f4c8fe8ef1ec5562.svg",
     "static/media/stack-overflow.svg": "/react-portfolio/static/media/stack-overflow.6bf2a39152043640191a2e1580d7b18a.svg",
     "main.331161aa.css.map": "/react-portfolio/static/css/main.331161aa.css.map",
-    "main.86bb7039.js.map": "/react-portfolio/static/js/main.86bb7039.js.map"
+    "main.b2bf3924.js.map": "/react-portfolio/static/js/main.b2bf3924.js.map"
   },
   "entrypoints": [
     "static/css/main.331161aa.css",
-    "static/js/main.86bb7039.js"
+    "static/js/main.b2bf3924.js"
   ]
 }
