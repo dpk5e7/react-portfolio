@@ -18,6 +18,7 @@ import imgPasswordGenerator from "../../images/password-generator.jpg";
 import imgPortfolio from "../../images/portfolio.jpg";
 import imgAccessibilityRefactor from "../../images/accessibility-refactor.jpg";
 import imgReactPortfolio from "../../images/react-portfolio.jpg";
+import imgBookSearchEngine from "../../images/book-search-engine.jpg";
 
 // Export and array of project objects
 export const projects = [
@@ -56,6 +57,15 @@ export const projects = [
     technologies:
       "Powderlin.es, Open Weather, Google Static Maps, MapQuest Directions, MapQuest GeoCoding & Reverse Geocoding, MapQuest Static Maps, MapQuest Search Ahead, Geolocation",
     GitHubRepo: "https://github.com/dpk5e7/powder-bound",
+  },
+  {
+    title: "Book Search Engine",
+    url: "https://dpk5e7-book-search-engine.herokuapp.com/",
+    image: imgBookSearchEngine,
+    description:
+      "Challenge #21 for the University of Denver Coding Bootcamp 2022. The purpose of this challenge is to build a MERN stack application.",
+    technologies: "MongoDB, Express, React, Node, Apollo Server, & GraphQL",
+    GitHubRepo: "https://github.com/dpk5e7/book-search-engine/",
   },
   {
     title: "React Portfolio",
