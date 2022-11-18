@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.331161aa.css",
-    "main.js": "/react-portfolio/static/js/main.0c3fa8e1.js",
+    "main.js": "/react-portfolio/static/js/main.30d84fe6.js",
     "static/media/readme-generator.jpg": "/react-portfolio/static/media/readme-generator.ec82b3e7d50b480251b2.jpg",
     "service-worker.js": "/react-portfolio/service-worker.js",
     "static/media/FaurotField.jpg": "/react-portfolio/static/media/FaurotField.7d4ffbf967b503142633.jpg",
@@ -25,12 +25,11 @@
     "index.html": "/react-portfolio/index.html",
     "static/media/github.svg": "/react-portfolio/static/media/github.b7c08b5ad64a5af85516b8ec5b67339f.svg",
     "static/media/linkedin.svg": "/react-portfolio/static/media/linkedin.2f72048cac99eb15f4c8fe8ef1ec5562.svg",
-    "static/media/stack-overflow.svg": "/react-portfolio/static/media/stack-overflow.6bf2a39152043640191a2e1580d7b18a.svg",
     "main.331161aa.css.map": "/react-portfolio/static/css/main.331161aa.css.map",
-    "main.0c3fa8e1.js.map": "/react-portfolio/static/js/main.0c3fa8e1.js.map"
+    "main.30d84fe6.js.map": "/react-portfolio/static/js/main.30d84fe6.js.map"
   },
   "entrypoints": [
     "static/css/main.331161aa.css",
-    "static/js/main.0c3fa8e1.js"
+    "static/js/main.30d84fe6.js"
   ]
 }
