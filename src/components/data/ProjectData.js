@@ -19,6 +19,7 @@ import imgPortfolio from "../../images/portfolio.jpg";
 import imgAccessibilityRefactor from "../../images/accessibility-refactor.jpg";
 import imgReactPortfolio from "../../images/react-portfolio.jpg";
 import imgBookSearchEngine from "../../images/book-search-engine.jpg";
+import imgReduxStore from "../../images/redux-store.jpg";
 
 // Export and array of project objects
 export const projects = [
@@ -57,6 +58,16 @@ export const projects = [
     technologies:
       "Powderlin.es, Open Weather, Google Static Maps, MapQuest Directions, MapQuest GeoCoding & Reverse Geocoding, MapQuest Static Maps, MapQuest Search Ahead, Geolocation",
     GitHubRepo: "https://github.com/dpk5e7/powder-bound",
+  },
+  {
+    title: "Redux Store",
+    url: "https://dpk5e7-redux-store.herokuapp.com/",
+    image: imgReduxStore,
+    description:
+      "Challenge #22 for the University of Denver Coding Bootcamp 2022. The purpose of this challenge is to refactor an e-Commerce application from React Context API to Legacy Redux, i.e. Redux prior to Toolkit.",
+    technologies:
+      "Redux, Stripe, MongoDB, Express, React, Node, Apollo Server, & GraphQL",
+    GitHubRepo: "https://github.com/dpk5e7/redux-store/",
   },
   {
     title: "Book Search Engine",
