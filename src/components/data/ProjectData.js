@@ -20,6 +20,7 @@ import imgAccessibilityRefactor from "../../images/accessibility-refactor.jpg";
 import imgReactPortfolio from "../../images/react-portfolio.jpg";
 import imgBookSearchEngine from "../../images/book-search-engine.jpg";
 import imgReduxStore from "../../images/redux-store.jpg";
+import imgTeamHandbook from "../../images/team-handbook.jpg";
 
 // Export and array of project objects
 export const projects = [
@@ -40,11 +41,21 @@ export const projects = [
     technologies: "Microsoft ASP.NET, C#, & SQL Server",
   },
   {
+    title: "Team Handbook",
+    url: "https://dpk5e7-team-handbook.herokuapp.com/",
+    image: imgTeamHandbook,
+    description:
+      "Project #3 for the University of Denver Coding Bootcamp 2022. The purpose of this project was to build an application to assist leaders and managers in understanding their people and the information important to their team members.",
+    technologies:
+      "React, Semantic-UI, Chart.js, GraphQL, MongoDB, Mongoose, CryptoJS, and JSON Web Tokens",
+    GitHubRepo: "https://github.com/dpk5e7/shakespeares-monkeys",
+  },
+  {
     title: "evRoute",
     url: "https://dpk5e7-evroute.herokuapp.com/",
     image: imgEvRoute,
     description:
-      "Project #2 for the University of Denver Coding Bootcamp 2022. The purpose of this challenge was to build an application to assist Electric Vehicle owners in planning long distance trips.",
+      "Project #2 for the University of Denver Coding Bootcamp 2022. The purpose of this project was to build an application to assist Electric Vehicle owners in planning long distance trips.",
     technologies:
       "Alternative Fuel Data Center information, Mapbox, Node.js, Express.js, MySQL, Sequelize, SASS, Handlebars.js, & express-session",
     GitHubRepo: "https://github.com/dpk5e7/evRoute",
