@@ -37,7 +37,7 @@ export const projects = [
     url: "https://bowlgames.kellysoftware.org",
     image: imgCollegeBowlGames,
     description:
-      "A free Pick'em-style college football site. This site was originally written in 2007.",
+      "A free Pick'em-style college football site. This site was originally written in 2007.  Note: This site is currently down for re-construction.",
     technologies: "Microsoft ASP.NET, C#, & SQL Server",
   },
   {
@@ -52,7 +52,7 @@ export const projects = [
   },
   {
     title: "evRoute",
-    url: "https://dpk5e7-evroute.herokuapp.com/",
+    url: "https://evroute.kellysoftware.org/",
     image: imgEvRoute,
     description:
       "Project #2 for the University of Denver Coding Bootcamp 2022. The purpose of this project was to build an application to assist Electric Vehicle owners in planning long distance trips.",
@@ -62,7 +62,7 @@ export const projects = [
   },
   {
     title: "Powder Bound",
-    url: "https://dpk5e7.github.io/powder-bound/",
+    url: "https://powder-bound.kellysoftware.org/",
     image: imgPowderBound,
     description:
       "Project #1 for the University of Denver Coding Bootcamp 2022. The purpose of this project was to build an application to assist snow sport enthusiasts in Colorado in planning their search for powder.",
@@ -91,7 +91,7 @@ export const projects = [
   },
   {
     title: "React Portfolio",
-    url: "https://dpk5e7.github.io/react-portfolio/",
+    url: "https://react-portfolio.kellysoftware.org/",
     image: imgReactPortfolio,
     description:
       "Challenge #20 for the University of Denver Coding Bootcamp 2022. The purpose of this challenge is to build a portfolio using React and Syntactically Awesome Style Sheets.  It is a single-page application that meets the progressive web application (PWA) criteria.",
@@ -118,7 +118,7 @@ export const projects = [
   },
   {
     title: "Tech Blog",
-    url: "https://dpk5e7-tech-blog.herokuapp.com/",
+    url: "https://tech-blog.kellysoftware.org/",
     image: imgTechBlog,
     description:
       "Challenge #14 for the University of Denver Coding Bootcamp 2022. The purpose of this challenge is to build a CMS-style blog site following the MVC paradigm, where developers can publish their blog posts and comment on other developers' posts as well.",
@@ -146,7 +146,7 @@ export const projects = [
   },
   {
     title: "Note Taker",
-    url: "https://dpk5e7-note-taker.herokuapp.com/",
+    url: "https://note-taker.kellysoftware.org/",
     image: imgNoteTaker,
     description:
       "Challenge #11 for the University of Denver Coding Bootcamp 2022. The purpose of this challenge is to build a note taker application to save and retreive data from a JSON file.",
@@ -173,7 +173,7 @@ export const projects = [
   },
   {
     title: "Weather Dashboard",
-    url: "https://dpk5e7.github.io/weather-dashboard/",
+    url: "https://weather-dashboard.kellysoftware.org/",
     image: imgWeatherDashboard,
     description:
       "Challenge #6 for the University of Denver Coding Bootcamp 2022. The purpose of this challenge is to build a weather dashboard that calls the OpenWeather API.",
@@ -182,7 +182,7 @@ export const projects = [
   },
   {
     title: "Work Day Scheduler",
-    url: "https://dpk5e7.github.io/work-day-scheduler/",
+    url: "https://work-day-scheduler.kellysoftware.org/",
     image: imgWorkDayScheduler,
     description:
       "Challenge #5 for the University of Denver Coding Bootcamp 2022. The purpose of this challenge is to build a work day scheduler.",
@@ -191,7 +191,7 @@ export const projects = [
   },
   {
     title: "Coding Quiz",
-    url: "https://dpk5e7.github.io/coding-quiz/",
+    url: "https://coding-quiz.kellysoftware.org/",
     image: imgCodingQuiz,
     description:
       "Challenge #4 for the University of Denver Coding Bootcamp 2022. The purpose of this challenge is to build a timed, multiple choice coding assessment quiz.",
@@ -200,7 +200,7 @@ export const projects = [
   },
   {
     title: "Password Generator",
-    url: "https://dpk5e7.github.io/password-generator/",
+    url: "https://password-generator.kellysoftware.org/",
     image: imgPasswordGenerator,
     description:
       "Challenge #3 for the University of Denver Coding Bootcamp 2022. The purpose of this challenge is to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected.",
@@ -209,7 +209,7 @@ export const projects = [
   },
   {
     title: "Portfolio",
-    url: "ttps://dpk5e7.github.io/portfolio/",
+    url: "https://portfolio.kellysoftware.org/",
     image: imgPortfolio,
     description:
       "Challenge #2 for the University of Denver Coding Bootcamp 2022. The purpose of this challenge is to build a portfolio.",
@@ -218,7 +218,7 @@ export const projects = [
   },
   {
     title: "Accessibility Refactor",
-    url: "https://dpk5e7.github.io/accessibility-refactor/",
+    url: "https://accessibility-refactor.kellysoftware.org/",
     image: imgAccessibilityRefactor,
     description:
       "Challenge #1 for the University of Denver Coding Bootcamp 2022. The purpose of this challenge is to refactor an existing site to make it more accessible.",
