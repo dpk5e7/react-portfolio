@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://dpk5e7.github.io/react-portfolio/",
+  "homepage": "https://react-portfolio.kellysoftware.org/",
   "private": true,
   "dependencies": {
     "dotenv": "^16.0.3",
