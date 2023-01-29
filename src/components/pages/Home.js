@@ -22,8 +22,8 @@ export default function Home() {
             sector.
           </p>
           <p>
-            Currently, I am attending the University of Denver Coding Bootcamp
-            with an expected graduation date of December 2022.
+            I recently completed the University of Denver Coding Bootcamp in
+            December 2022.
           </p>
         </section>
       </div>
