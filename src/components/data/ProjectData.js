@@ -37,8 +37,9 @@ export const projects = [
     url: "https://bowlgames.kellysoftware.org",
     image: imgCollegeBowlGames,
     description:
-      "A free Pick'em-style college football site. This site was originally written in 2007.  Note: This site is currently down for re-construction.",
-    technologies: "Microsoft ASP.NET, C#, & SQL Server",
+      "A free Pick'em-style college football site. This site was originally written in 2007.  Note: This site is currently under re-construction.",
+    technologies:
+      "Microsoft ASP.NET Core 7, Razor Pages with Razor Components, Entity Framework, ASP.NET Core Identity, SASS, Bootstrap, C#, & SQL Server",
   },
   {
     title: "Team Handbook",
