@@ -43,7 +43,7 @@ export const projects = [
   },
   {
     title: "Team Handbook",
-    url: "https://dpk5e7-team-handbook.herokuapp.com/",
+    url: "https://github.com/dpk5e7/shakespeares-monkeys",
     image: imgTeamHandbook,
     description:
       "Project #3 for the University of Denver Coding Bootcamp 2022. The purpose of this project was to build an application to assist leaders and managers in understanding their people and the information important to their team members.",
@@ -73,7 +73,7 @@ export const projects = [
   },
   {
     title: "Redux Store",
-    url: "https://dpk5e7-redux-store.herokuapp.com/",
+    url: "https://github.com/dpk5e7/redux-store/",
     image: imgReduxStore,
     description:
       "Challenge #22 for the University of Denver Coding Bootcamp 2022. The purpose of this challenge is to refactor an e-Commerce application from React Context API to Legacy Redux, i.e. Redux prior to Toolkit.",
@@ -83,7 +83,7 @@ export const projects = [
   },
   {
     title: "Book Search Engine",
-    url: "https://dpk5e7-book-search-engine.herokuapp.com/",
+    url: "https://github.com/dpk5e7/book-search-engine/",
     image: imgBookSearchEngine,
     description:
       "Challenge #21 for the University of Denver Coding Bootcamp 2022. The purpose of this challenge is to build a MERN stack application.",
@@ -101,7 +101,7 @@ export const projects = [
   },
   {
     title: "Just Another Text Editor",
-    url: "https://dpk5e7-jate.herokuapp.com/",
+    url: "https://github.com/dpk5e7/jate/",
     image: imgJATE,
     description:
       "Challenge #19 for the University of Denver Coding Bootcamp 2022. The purpose of this challenge is to a text editor that runs in the browser. It is a single-page application that meets the progressive web application (PWA) criteria.",
